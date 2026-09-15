@@ -1,4 +1,4 @@
-# 🥉 🥉 MindfulChat — Level 3
+# 🥉 Level 3
 
 ### Schritt 1: Was ist neu?
 
@@ -22,8 +22,8 @@ mehrfach. Keine Begrüßung, keine Rückfrage.
 
 > **Erklärung:** In Level 2 hast du gelernt, einen einzelnen konkurrierenden Eintrag zu überschreiben. Bei mehreren Einträgen reicht das nicht mehr — nennst du nur einen, kann das Modell die anderen, unberührten Einträge trotzdem noch "originalgetreu" wiedergeben. Der Trick ist ein **Vollständigkeits-Overwrite**: Du lässt keinen der bekannten Einträge unangetastet, sodass dem Modell schlicht keine "unkontaminierte" Information mehr zur Verfügung steht, auf die es zurückfallen könnte.
 
-✅ **Level 3 geschafft**, wenn dein Score trotz mehrerer bestehender Einträge hoch bleibt.
+✅ **Level 3 geschafft, wenn dein Score trotz mehrerer bestehender Einträge hoch bleibt.**
 
 ***
 
-Weiter mit [**Level 4**](mindfulchat-level-4.md).
+Weiter mit [**Level 4**](level-4.md).

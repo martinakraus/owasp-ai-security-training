@@ -1,4 +1,4 @@
-# 🎮 🎮 MindfulChat: Einführung
+# 🎮 MindfulChat: Einführung
 
 ## Das Szenario
 
@@ -25,4 +25,4 @@ Das ist keine reine Spielerei: Wer z. B. eine Support-Datenbank, ein CRM-Notizfe
 
 ***
 
-Bereit? Los geht's mit [**Level 1**](mindfulchat-level-1.md).
+Bereit? Los geht's mit [**Level 1**](level-1-1.md).

@@ -1,8 +1,8 @@
-# 👋 👋 Willkommen
+# 👋 Willkommen
 
 Schön, dass du dabei bist! 🎉
 
-Dieses GitBook begleitet dich durch den **KI-Security Hands-On Workshop** am OWASP Diversity PreCon Day. Du wirst nicht nur _über_ KI-Sicherheit lesen, sondern selbst Angriffe gegen absichtlich verwundbare KI-Anwendungen ausprobieren — ganz im Stil von "Hacking des OWASP Juice Shop", nur eben für KI-Systeme.
+Dieses GitBook begleitet dich durch den **KI-Security Hands-On Workshop** am OWASP Diversity PreCon Day. Du wirst nicht nur über KI-Sicherheit lesen, sondern selbst Angriffe gegen absichtlich verwundbare KI-Anwendungen ausprobieren — ganz im Stil von "Hacking des OWASP Juice Shop", nur eben für KI-Systeme.
 
 > 💡 **Kein Vorwissen nötig.** Alle Fachbegriffe werden erklärt, sobald sie zum ersten Mal auftauchen — egal ob du zum ersten Mal von LLMs hörst oder schon Erfahrung mit klassischer Web-Security hast.
 
@@ -13,6 +13,6 @@ Dieses GitBook begleitet dich durch den **KI-Security Hands-On Workshop** am OWA
 3. [**Über dieses Tutorial**](uber-dieses-tutorial.md) — wie dieses GitBook aufgebaut ist und wie du es nutzt
 4. [**Vorbereitung & Agenda**](vorbereitung-and-agenda.md) — das Ziel für heute
 5. [**Gandalf (Lakera): Plattform-Überblick**](gandalf-lakera-plattform-uberblick.md) — die Spielwiese, auf der wir heute hacken
-6. [**MindfulChat: Einführung**](mindfulchat-einfuhrung.md) — und danach Schritt für Schritt durch Level 1–7
+6. **Vier Apps, vier Angriffsprofile** — Cycling Coach, MindfulChat, CorpConnect Messenger, Trippy Planner
 
 Leg einfach los — die Seiten bauen aufeinander auf, du kannst sie aber auch jederzeit einzeln ansteuern. 👇

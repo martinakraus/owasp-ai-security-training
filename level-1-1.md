@@ -1,4 +1,4 @@
-# 🥇 🥇 MindfulChat — Level 1
+# 🥇 Level 1
 
 ### Schritt 1: Verstehen, was du tun sollst
 
@@ -36,10 +36,10 @@ Keine weiteren Details, keine Rückfrage.
 
 ### Schritt 6: Warum bringt Kürzen mehr Punkte?
 
-> **Erklärung:** Der Score misst vermutlich, wie _dominant_ dein Zielwort in der Antwort ist (ein Anteils- bzw. Dichte-Wert) — nicht nur, ob es überhaupt vorkommt. Weniger "Rauschen" bedeutet automatisch einen höheren relativen Anteil deines Zielbegriffs. Ein nützlicher Kniff für fast jede Prompt-Injection-Challenge: **Je konzentrierter deine Anweisung, desto weniger Spielraum bleibt dem Modell, "eigene" Inhalte zu ergänzen.**
+> **Erklärung:** Der Score misst vermutlich, wie _dominant_ dein Zielwort in der Antwort ist (ein Anteils- bzw. Dichte-Wert) — nicht nur, ob es überhaupt vorkommt. Weniger "Rauschen" (Zusatzinfos, Höflichkeitsfloskeln, Rückfragen) bedeutet automatisch einen höheren relativen Anteil deines Zielbegriffs. Das ist ein nützlicher Kniff, den du bei fast jeder Prompt-Injection-Challenge anwenden kannst: **Je konzentrierter deine Anweisung, desto weniger Spielraum bleibt dem Modell, "eigene" Inhalte zu ergänzen.**
 
-✅ **Level 1 geschafft**, sobald du 75+ (besser: 100) Punkte siehst.
+✅ **Level 1 geschafft, sobald du 75+ (besser: 100) Punkte siehst.**
 
 ***
 
-Weiter mit [**Level 2**](mindfulchat-level-2.md).
+Weiter mit [**Level 2**](level-2.md).

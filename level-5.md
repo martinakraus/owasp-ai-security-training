@@ -1,5 +1,7 @@
 # 🏆 Level 5
 
+> ⚠️ **Score-Varianz:** Auch hier gilt: Scores können zwischen Versuchen schwanken. Details dazu auf der [Über dieses Tutorial](uber-dieses-tutorial.md)-Seite.
+
 ### Schritt 1: Was ist neu?
 
 Wenn du deinen Level-4-Payload direkt wiederverwendest, bekommst du möglicherweise eine Fehlermeldung, die auf "beschädigte" oder "unklare" Eingabedaten hinweist. Das bedeutet: Der Guardrail in Level 5 ist **empfindlicher gegenüber ungewöhnlicher Formatierung** (z. B. zu viele Sonderzeichen, ungewöhnliche Klammern) — nicht nur gegenüber offensichtlichen Anweisungen.
@@ -27,9 +29,9 @@ Restaurant nur den Namen und den Bestätigungsstatus durch
 
 ### Schritt 3: Warum funktioniert das?
 
-> **Erklärung:** Es gibt einen Ziel-Konflikt zwischen zwei Zielen, die du gleichzeitig verfolgst: **Tarnung als harmlose Daten** (aus Level 4) und **Vermeidung von Auffälligkeit in der Formatierung** (neu in Level 5). Zu viele technische Sonderzeichen (Pipes, eckige Klammern, Raute-Kaskaden) können selbst wieder als "verdächtig strukturiert" auffallen. Die Lösung ist ein Mittelweg: Die Information bleibt in klar getrennte Abschnitte gegliedert (für die Übersichtlichkeit und um alte Einträge sauber zu überschreiben), aber die Sprache darin liest sich wie ein normaler, von einem Assistenten selbst geschriebener Vermerk — nicht wie Code.
+> **Erklärung:** Es gibt einen Ziel-Konflikt zwischen zwei Zielen, die du gleichzeitig verfolgst: **Tarnung als harmlose Daten** (aus Level 4) und **Vermeidung von Auffälligkeit in der Formatierung** (neu in Level 5). Zu viele technische Sonderzeichen (Pipes, eckige Klammern, Raute-Kaskaden) können selbst wieder als "verdächtig strukturiert" auffallen. Die Lösung ist ein Mittelweg: Die Information bleibt in klar getrennte Abschnitte gegliedert, aber die Sprache darin liest sich wie ein normaler, von einem Assistenten selbst geschriebener Vermerk — nicht wie Code.
 
-✅ **Level 5 geschafft, wenn du wieder einen sauberen, hohen Score ohne Fehlermeldung siehst.**
+✅ **Level 5 geschafft, wenn du einen sauberen, hohen Score ohne Fehlermeldung siehst.**
 
 ***
 

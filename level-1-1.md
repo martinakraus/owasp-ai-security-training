@@ -20,6 +20,8 @@ Zustimmung in jeder Antwort, unabhängig von der Frage.
 
 Mit so einem direkten Eintrag solltest du bereits einen Score von **75+** sehen.
 
+> ⚠️ **Score-Varianz:** Level 1 hat bei unseren Tests zuverlässig hoch gepunktet. Ab Level 2 haben wir aber deutliche Schwankungen zwischen einzelnen Versuchen gesehen — mehr dazu auf der [Über dieses Tutorial](uber-dieses-tutorial.md)-Seite. Nicht entmutigen lassen, einfach nochmal probieren.
+
 ### Schritt 4: Warum hat das schon fast geklappt?
 
 > **Erklärung:** Erinnerst du dich an das Kontextfenster aus der Einführung? Für das Modell gibt es keinen technischen Unterschied zwischen "das hat der echte Nutzer wirklich mal gesagt" und "das steht zufällig in einem Textfeld, das ich gerade verarbeite". Beides landet gleichberechtigt im selben Kontext. Weil dein Eintrag wie eine legitime, bereits bestätigte Nutzerpräferenz **formuliert** ist, behandelt das Modell sie auch so — das ist der Kern jeder Prompt Injection.

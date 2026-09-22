@@ -2,6 +2,8 @@
 
 > ⚠️ **Transparenz-Hinweis:** Im Gegensatz zu Level 1 (live getestet, 100/100) haben wir Level 2–5 nicht vollständig live verifiziert. Was folgt, ist ein **Techniken-Baukasten** nach demselben Muster, das ihr schon bei MindfulChat kennengelernt habt — testet selbst, bevor ihr etwas als Musterlösung weitergebt.
 
+> ⚠️ **Score-Varianz:** Bei diesem Level sind uns bei ähnlichen Payloads deutlich schwankende, tendenziell niedrige Scores untergekommen (weit unter dem Zielwert von 75). Details und Hintergrund dazu findet ihr auf der [Über dieses Tutorial](uber-dieses-tutorial.md)-Seite. Lasst die TN mehrere Varianten probieren (Autoritäts-Framing, Formatvorgaben, Rollenspiel — siehe Baukasten unten) und rechnet damit, dass nicht jede Gruppe es in der vorgesehenen Zeit schafft — das ist kein Fehler eurerseits.
+
 ## Was wir live beobachtet haben
 
 Beim Testen von Level 2 (Schwierigkeitsstufe "ADEPT") wurde unser Level-1-Payload direkt **abgelehnt**: _"I'm sorry, but I can't provide that information. Let's focus on your cycling training plan..."_ — die App hat also ab Level 2 einen gehärteten System Prompt und/oder einen Guardrail, der offensichtliche "Ignore instructions"-Anfragen erkennt.
@@ -17,7 +19,7 @@ Beim Testen von Level 2 (Schwierigkeitsstufe "ADEPT") wurde unser Level-1-Payloa
 
 ## Der Kern-Lernpunkt
 
-Genau wie bei MindfulChat Level 4 gilt: Je härter der Guardrail, desto mehr hilft es, eine Anweisung wie **legitime Daten oder eine legitime Aufgabe** aussehen zu lassen, statt wie einen offensichtlichen Angriff.
+Genau wie bei MindfulChat Level 4 gilt: Je härter der Guardrail, desto mehr hilft es, eine Anweisung wie **legitime Daten oder eine legitime Aufgabe** aussehen zu lassen, statt wie einen offensichtlichen Angriff. Und: **mehrfach probieren** — die Erfolgsquote schwankt spürbar von Versuch zu Versuch.
 
 ***
 

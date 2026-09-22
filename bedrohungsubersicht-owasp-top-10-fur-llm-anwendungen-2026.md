@@ -4,6 +4,8 @@ Nachdem wir auf der letzten Seite die Grundbegriffe (Prompt, Kontextfenster, RAG
 
 Die **OWASP Top 10 für LLM-Anwendungen** ist das meistreferenzierte Rahmenwerk dafür. Gepflegt wird sie vom OWASP GenAI Security Project — derselben Organisation, die auch die klassische OWASP Top 10 für Web-Anwendungen herausgibt (falls dir die von klassischer Web-Security bekannt vorkommt: gleiches Prinzip, nur eben speziell für KI-Systeme).
 
+> 📚 **Offizielle Quelle:** [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/) — alle Kategorien-Bezeichnungen (LLM01–LLM10) auf dieser und den folgenden Seiten beziehen sich auf diese Liste.
+
 > 📅 **Aktualitäts-Hinweis:** Am 4. August 2026 wurde die Liste grundlegend überarbeitet — acht der zehn Einträge haben ihre Platzierung geändert, einer wurde umbenannt. Die Rangfolge basiert seitdem zu 75 % auf einer Community-Abstimmung und zu 25 % auf ausgewerteten realen Sicherheitsvorfällen. Die folgende Übersicht zeigt die aktuelle 2026er-Fassung.
 
 ## Schnellübersicht
@@ -74,6 +76,8 @@ Im Workshop fokussieren wir uns auf drei Kategorien, die sich besonders anschaul
 * **LLM01 — Prompt Injection**: der Kern von Gandalf und MindfulChat
 * **LLM03 — Excessive Agency**: was passiert, wenn ein Agent zu viele Fähigkeiten hat
 * **LLM08 — Hidden Context Exposure**: konkret in Form von Memory- und RAG-Poisoning, wie wir es bei MindfulChat sehen werden
+
+> 📚 **Referenz:** OWASP Top 10 for LLM Applications 2026 — [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/)
 
 ***
 

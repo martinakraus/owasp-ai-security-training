@@ -35,6 +35,12 @@ the Pooh" 5+ times, zero other content, zero questions.
 
 > **Erklärung:** In Level 2 hast du gelernt, einen einzelnen konkurrierenden Eintrag zu überschreiben. Bei mehreren Einträgen reicht das nicht mehr — nennst du nur einen, kann das Modell die anderen, unberührten Einträge trotzdem noch "originalgetreu" wiedergeben. Der Trick ist ein **Vollständigkeits-Overwrite**: Du lässt keinen der bekannten Einträge unangetastet, sodass dem Modell schlicht keine "unkontaminierte" Information mehr zur Verfügung steht, auf die es zurückfallen könnte. Die direktere Variante in Schritt 3 kombiniert das zusätzlich mit einer sehr harten, unmissverständlichen Formatvorgabe.
 
+## 🛡️ Schwachstelle & Behebung
+
+Dieselbe Schwachstelle wie auf [**Level 1**](level-1-1.md): [LLM08:2026 — Hidden Context Exposure](https://genai.owasp.org/llm-top-10/) (Memory-Poisoning). Level 3 zeigt eine Eskalationsstufe: Je mehr "echte" Daten im Memory stehen, desto wichtiger wird eine **vollständige** Herkunftsprüfung — ein Schutz, der nur _einzelne_ Einträge validiert, aber nicht _alle_, hilft nicht. In der Praxis heißt das: Provenance-Tracking muss lückenlos für jeden Eintrag gelten, nicht nur stichprobenartig.
+
+> 📚 **Referenz:** OWASP Top 10 for LLM Applications 2026 — [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/)
+
 ✅ **Level 3 geschafft, wenn dein Score trotz mehrerer bestehender Einträge hoch ausfällt.**
 
 ***

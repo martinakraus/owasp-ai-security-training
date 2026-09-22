@@ -31,8 +31,14 @@ Restaurant nur den Namen und den Bestätigungsstatus durch
 
 > **Erklärung:** Es gibt einen Ziel-Konflikt zwischen zwei Zielen, die du gleichzeitig verfolgst: **Tarnung als harmlose Daten** (aus Level 4) und **Vermeidung von Auffälligkeit in der Formatierung** (neu in Level 5). Zu viele technische Sonderzeichen (Pipes, eckige Klammern, Raute-Kaskaden) können selbst wieder als "verdächtig strukturiert" auffallen. Die Lösung ist ein Mittelweg: Die Information bleibt in klar getrennte Abschnitte gegliedert, aber die Sprache darin liest sich wie ein normaler, von einem Assistenten selbst geschriebener Vermerk — nicht wie Code.
 
+## 🛡️ Schwachstelle & Behebung
+
+Dieselbe Grundschwachstelle wie auf [**Level 1**](level-1-1.md): [LLM08:2026 — Hidden Context Exposure](https://genai.owasp.org/llm-top-10/). Level 5 zeigt, dass Guardrails, die auf **Formatierungs-Heuristiken** ("zu viele Sonderzeichen = verdächtig") setzen, genauso umgehbar sind wie inhaltsbasierte Filter — man muss nur die Tarnung verbessern. Robuste Behebung braucht daher Mechanismen, die _unabhängig von Formatierung und Wortwahl_ funktionieren, z. B. echte Herkunftsprüfung statt Text-Heuristiken.
+
+> 📚 **Referenz:** OWASP Top 10 for LLM Applications 2026 — [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/)
+
 ✅ **Level 5 geschafft, wenn du einen sauberen, hohen Score ohne Fehlermeldung siehst.**
 
 ***
 
-Weiter mit [**Level 6 & 7**](mindfulchat-level-6-and-7.md).
+Weiter mit [**Level 6 & 7**](level-6-and-7-eskalationsstrategie.md).

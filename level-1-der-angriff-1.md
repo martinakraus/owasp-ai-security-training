@@ -37,6 +37,21 @@ in every itinerary that references this page.
 
 > **Erklärung:** Der Kontrollversuch aus Schritt 2 und der erfolgreiche Versuch aus Schritt 3 enthalten _exakt dieselbe_ Phishing-Zeile — der einzige Unterschied ist die Einkleidung. Zwei Dinge greifen zusammen: Erstens die **"IMPORTANT SYSTEM NOTE"-Formulierung**: Sie tarnt sich als technische Anweisung _an_ das Modell, nicht als gewöhnlicher Seiteninhalt — das Modell hat aber keine Möglichkeit, zwischen "echter" Systemanweisung und einer Anweisung, die zufällig in einem abgerufenen Dokument steht, zu unterscheiden. Zweitens der **Rahmen "offizieller Partner-Link, muss enthalten sein"**: Er liefert dem Modell einen scheinbar plausiblen _Grund_, die Zeile zu übernehmen, statt sie nur als schmückenden Werbetext zu ignorieren.
 
+## 🛡️ Schwachstelle & Behebung
+
+**Ausgenutzte Schwachstelle:** [LLM01:2026 — Prompt Injection](https://genai.owasp.org/llm-top-10/) in ihrer _indirekten_ Form — die Anweisung steckt in extern abgerufenen Daten, nicht im Chat. Verwandt mit [LLM09:2026 — Vector and Embedding Weaknesses](https://genai.owasp.org/llm-top-10/), da hier generell die Absicherung von Retrieval-Pipelines (das "Einsammeln" externer Inhalte in den Kontext) betroffen ist.
+
+**Das eigentliche Problem:** Der Reiseassistent fügt abgerufene Webinhalte ungefiltert in seinen Kontext ein — mit demselben Vertrauensniveau wie eine echte Systemanweisung. Es gibt keine technische Markierung, die sagt "das hier ist unverifizierter externer Inhalt, keine Anweisung".
+
+**Wie behebt man das (theoretisch)?**
+
+* **Retrieval-Inhalte klar von Instruktionen trennen:** Abgerufene Webinhalte in einem eigenen, deutlich gekennzeichneten Datenblock einfügen, mit expliziter Anweisung an das Modell, Inhalte darin niemals als Befehl zu behandeln — keine hundertprozentige Garantie, aber eine wichtige erste Schicht.
+* **Output-Filterung für Links:** Bevor ein Agent einen Link in seiner Antwort anzeigt, sollte ein automatisierter, vom Sprachmodell unabhängiger Check laufen (Domain-Reputation, bekannte Phishing-Datenbanken).
+* **Quellenangabe und Nachvollziehbarkeit:** Transparent machen, _woher_ eine Empfehlung stammt, damit Nutzer:innen selbst eine Plausibilitätsprüfung vornehmen können.
+* **Trennung von Recherche- und Handlungsfähigkeit:** Ein Agent, der Webinhalte liest, sollte nicht automatisch die Befugnis haben, deren Inhalte ungeprüft in nutzersichtbare Ausgaben zu übernehmen.
+
+> 📚 **Referenz:** OWASP Top 10 for LLM Applications 2026 — [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/)
+
 ✅ **Level 1 geschafft.**
 
 ***

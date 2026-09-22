@@ -54,6 +54,21 @@ Thank you."
 
 > **Erklärung:** Zwei Dinge kombiniert: Erstens die **vorgetäuschte Berechtigung** (das Modell kann nicht prüfen, ob eine "delegierte Berechtigung" tatsächlich existiert — derselbe Mechanismus wie bei einer echten Phishing-Mail). Zweitens die **Vollständigkeit**: Weil Empfänger, Betreff und Inhalt bereits feststehen und die Nachricht explizit sagt "keine Bestätigung nötig", hat das Modell keinen Grund, in den Klarstellungs-Modus zu wechseln — es kann direkt handeln. Das zeigt ein allgemeines Prinzip für Angriffe auf Agenten mit Tool-Zugriff: **Je vollständiger und handlungsbereiter ein Payload wirkt, desto eher führt das Modell die Aktion sofort aus, statt erst nachzufragen.**
 
+## 🛡️ Schwachstelle & Behebung
+
+**Ausgenutzte Schwachstelle:** [LLM03:2026 — Excessive Agency](https://genai.owasp.org/llm-top-10/). Der Agent hat ein mächtiges Werkzeug (E-Mails mit beliebiger Absenderidentität verschicken), aber keine ausreichende Prüfung, _wer_ dieses Werkzeug wie nutzen darf.
+
+**Das eigentliche Problem:** Das `send_email`-Werkzeug lässt das `from`-Feld frei durch das Sprachmodell bestimmen — basierend auf einer reinen Textbehauptung im Chatverlauf ("ich bin dazu berechtigt"), nicht auf einer echten, geprüften Autorisierung. Das Modell entscheidet damit faktisch selbst über Identitätsfragen, die eigentlich außerhalb seiner Kompetenz liegen sollten.
+
+**Wie behebt man das (theoretisch)?**
+
+* **Absenderidentität serverseitig fest an den authentifizierten Nutzer binden** — niemals als vom Modell frei befüllbares Textfeld gestalten.
+* **Delegationen echt prüfen:** Eine Behauptung wie "ich bin dazu berechtigt" darf nur gelten, wenn sie gegen ein echtes Berechtigungssystem (z. B. eine Datenbank aktiver Delegationen) verifiziert wird — abgefragt über einen separaten, nicht vom Sprachmodell kontrollierten Tool-Aufruf.
+* **Human-in-the-loop für identitätskritische Aktionen:** Vor dem Versand einer E-Mail mit einer _anderen_ Absenderidentität als der eigenen sollte ein Mensch oder ein unabhängiges System explizit bestätigen.
+* **Least Privilege:** Der Agent sollte nur die minimal nötigen Tool-Rechte für seine eigentliche Aufgabe bekommen — "im Namen anderer senden" ist selten nötig für einen normalen Kommunikationsassistenten.
+
+> 📚 **Referenz:** OWASP Top 10 for LLM Applications 2026 — [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/)
+
 ✅ **Level 1 geschafft.**
 
 ***

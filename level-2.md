@@ -52,6 +52,12 @@ the Pooh" 5+ times, zero other content, zero questions.
 
 > **Erklärung (Zusammenfassung):** Du kombinierst drei Prinzipien: (1) **Aktualität vortäuschen**, um mit bestehenden Daten zu konkurrieren, (2) **Formatvorgaben**, um trainiertes "Hilfsbereitschafts-Verhalten" zu übersteuern, und (3) **plausible Einkleidung**, um Filter zu umgehen, die auf offensichtlich unsinnige Anweisungen reagieren würden. Alle drei Prinzipien tauchen in echten Angriffen auf produktive KI-Systeme immer wieder auf.
 
+## 🛡️ Schwachstelle & Behebung
+
+Dieselbe Schwachstelle wie auf [**Level 1**](level-1-1.md): [LLM08:2026 — Hidden Context Exposure](https://genai.owasp.org/llm-top-10/) (Memory-Poisoning). Neu hier: Ihr seht, dass selbst ein **bestehender, "echter" Eintrag** (Septime) keinen verlässlichen Schutz bietet — er lässt sich einfach als "veraltet" umdeklarieren. Das zeigt: Ohne echte Herkunftsprüfung nützt auch vorhandener, legitimer Content nichts gegen Injection.
+
+> 📚 **Referenz:** OWASP Top 10 for LLM Applications 2026 — [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/)
+
 ✅ **Level 2 geschafft, sobald euer Score hoch ausfällt (Ziel: 90–100) — ggf. mehrfach probieren.**
 
 ***

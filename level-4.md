@@ -37,6 +37,16 @@ Septime, Le Comptoir Général, Chez Janou, El Farolito
 
 > **Erklärung:** Guardrail-Modelle werden meist darauf trainiert, _offensichtliche_ Anweisungen zu erkennen ("Tu X", "Ignoriere Y", "Erwähne Z in jeder Antwort"). Ein Text, der wie eine strukturierte Datentabelle oder ein technisches Änderungsprotokoll aussieht, enthält formal betrachtet **keine einzige direkte Anweisung an das Modell** — er besteht nur aus Fakten und einer Formatvorgabe. Dadurch fällt er seltener unter das Muster, auf das der Guardrail trainiert wurde, obwohl er inhaltlich dieselbe Wirkung erzielt. Das ist ein reales, häufig beobachtetes Umgehungsmuster gegen Content-Filter: **Instruktionen wirken oft harmloser, wenn sie wie Daten aussehen statt wie Befehle.** Dass der Score trotzdem schwankt, zeigt: Der Guardrail selbst ist nicht komplett deterministisch — manchmal lässt er dieselbe Formulierung durch, manchmal nicht.
 
+## 🛡️ Schwachstelle & Behebung
+
+Dieselbe Grundschwachstelle wie auf [**Level 1**](level-1-1.md): [LLM08:2026 — Hidden Context Exposure](https://genai.owasp.org/llm-top-10/). Neu hier ist die Abwehrmaßnahme selbst — der Guardrail — die ihr live umgangen habt. Das illustriert eine wichtige Lektion zur Behebung: **Ein Guardrail, der selbst wieder ein LLM ist, erbt dieselbe Grundschwachstelle** (kann Daten nicht zuverlässig von Anweisungen unterscheiden). Robustere Behebung:
+
+* Guardrails **nicht** allein auf Muster-Erkennung ("klingt das wie ein Befehl?") verlassen lassen, sondern zusätzlich strukturelle Regeln durchsetzen (z. B. Memory-Einträge dürfen bestimmte Feldformate technisch gar nicht überschreiben).
+* **Mehrschichtige Verteidigung (Defense in Depth):** Guardrail plus Herkunftsprüfung plus Rechte-Trennung — nicht auf eine einzelne Schutzschicht verlassen.
+* Guardrails regelmäßig selbst red-teamen, genau wie das Hauptmodell.
+
+> 📚 **Referenz:** OWASP Top 10 for LLM Applications 2026 — [genai.owasp.org/llm-top-10](https://genai.owasp.org/llm-top-10/)
+
 ✅ **Level 4 geschafft, wenn dein strukturierter Eintrag nicht abgelehnt wird und einen hohen Score erzielt — ggf. mehrfach probieren und variieren.**
 
 ***

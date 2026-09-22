@@ -15,7 +15,7 @@
 * [🥉 Level 3](level-3.md)
 * [🏅 Level 4](level-4.md)
 * [🏆 Level 5](level-5.md)
-* [🎯 MindfulChat — Level 6 & 7](mindfulchat-level-6-and-7.md)
+* [🎯 Level 6 & 7 — Eskalationsstrategie](level-6-and-7-eskalationsstrategie.md)
 * [✉️ CorpConnect Messenger: Einführung](corpconnect-messenger-einfuhrung.md)
 * [🥇 Level 1 — Der Angriff](level-1-der-angriff.md)
 * [🔍 Vertiefung: Varianten, Abwehr & Diskussion](vertiefung-varianten-abwehr-and-diskussion.md)

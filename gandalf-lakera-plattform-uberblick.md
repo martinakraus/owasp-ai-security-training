@@ -31,7 +31,7 @@ Die "agentische" Weiterentwicklung, und das, was wir heute nutzen: **ein ganzer 
 
 So sieht die Seite aus, wenn du eine App (hier: MindfulChat) geöffnet hast:
 
-![Annotierte Ansicht der MindfulChat-Oberfläche: links Angriffsziel und Level, Mitte das Memory-Log-Eingabefeld, rechts die simulierte Opfer-App](https://2261399192-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FMqhd6gzPWNNjBu3FtHe5%2Fuploads%2FoeiSo2aGql1uuiV8reL4%2Fmindfulchat-ui-annotated.png?alt=media)
+![Annotierte Ansicht der MindfulChat-Oberfläche: links Angriffsziel und Level, Mitte das Memory-Log-Eingabefeld, rechts die simulierte Opfer-App](.gitbook/assets/gandalf-ui.png)
 
 * **① Links:** Angriffsziel ("Attack Objective"), Hintergrundszenario ("Attack Scenario"), über welchen Weg der Angriff eingeschleust wird ("Attack Vector") sowie dein aktueller Level mit Ziel-Score
 * **② Mitte:** Hier trägst du deinen Payload ein — bei MindfulChat ist das ein simulierter "Memory Log"-Eintrag; bei anderen Apps kann das z. B. eine präparierte E-Mail oder ein Dokument sein

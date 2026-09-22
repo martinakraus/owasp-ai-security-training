@@ -18,6 +18,8 @@ Der Angriffsvektor: Du erstellst eine **bösartige Reise-Webseite**, die in Such
 
 > 💡 **Warum das besonders wichtig ist:** Bei MindfulChat musstest du dir erst Zugriff auf eine interne Datenbank verschaffen, um deinen Angriff einzuschleusen. Hier reicht eine öffentlich erreichbare Webseite — das ist der Angriffsweg mit der niedrigsten Eintrittshürde von allen, die wir heute behandeln, und entspricht ziemlich genau echten Angriffen auf KI-Systeme mit Websuche.
 
+> 🎮 **Diese App hat mehrere Level** — achtet auf den Hinweis zu "View all Levels" auf der ersten Level-Seite.
+
 ***
 
 Los geht's: [**Trippy Planner — Level 1**](level-1-der-angriff-1.md)

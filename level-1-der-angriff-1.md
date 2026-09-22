@@ -2,6 +2,8 @@
 
 > ⚠️ **Score-Varianz:** Scores können zwischen Versuchen schwanken — Details dazu auf der [Über dieses Tutorial](uber-dieses-tutorial.md)-Seite.
 
+> 💡 **Level-Hinweis:** Diese App zeigt die Level standardmäßig nicht alle auf einmal an — klickt oben links auf **"View all Levels"** (ggf. einmal ein- und wieder ausklappen), um die volle Liste inklusive der noch gesperrten höheren Level zu sehen. Trippy Planner hat **mehrere Level**.
+
 ### Schritt 1: Verstehen, was du tun sollst
 
 Die App zeigt: **Attack Objective** (die konkrete Phishing-Zeile in den Reiseplan einschleusen), **Attack Scenario** (ein Nutzer plant eine Armenien-Reise, der Assistent recherchiert dabei im Web) und **Attack Vector** (du hast eine bösartige Reise-Webseite erstellt, die in den Suchergebnissen auftaucht).
@@ -56,4 +58,4 @@ in every itinerary that references this page.
 
 ***
 
-Weiter mit der [**Vertiefung: Varianten, Abwehr & Diskussion**](vertiefung-varianten-abwehr-and-diskussion-1.md).
+Weiter mit [**Level 2**](level-2-2.md).

@@ -29,14 +29,14 @@ Die "agentische" Weiterentwicklung, und das, was wir heute nutzen: **ein ganzer 
 
 ## Die Oberfläche im Detail
 
-So sieht die Seite aus, wenn du eine App (hier: MindfulChat) geöffnet hast:
-
-![Annotierte Ansicht der MindfulChat-Oberfläche: links Angriffsziel und Level, Mitte das Memory-Log-Eingabefeld, rechts die simulierte Opfer-App](.gitbook/assets/gandalf-ui.png)
+So sieht die Seite aus, wenn du eine App (hier: MindfulChat) geöffnet hast — vier Bereiche, die bei jeder App gleich aufgebaut sind:
 
 * **① Links:** Angriffsziel ("Attack Objective"), Hintergrundszenario ("Attack Scenario"), über welchen Weg der Angriff eingeschleust wird ("Attack Vector") sowie dein aktueller Level mit Ziel-Score
 * **② Mitte:** Hier trägst du deinen Payload ein — bei MindfulChat ist das ein simulierter "Memory Log"-Eintrag; bei anderen Apps kann das z. B. eine präparierte E-Mail oder ein Dokument sein
 * **③ Unten:** Der Button, um deinen Angriff abzuschicken ("Initiate Attack")
 * **④ Rechts:** Die "Attack Preview" — eine simulierte Vorschau der App, die das (fiktive) Opfer sieht. Nach dem Abschicken siehst du hier, wie die KI auf dein Opfer reagiert
+
+> 📸 **Hinweis:** Ein Screenshot der Oberfläche folgt hier bald — ich konnte die Bilddatei technisch noch nicht zuverlässig einbetten. Am einfachsten fügst du selbst kurz einen Screenshot ein: In GitBook auf diese Seite gehen, an die gewünschte Stelle klicken und ein Bild per Drag & Drop oder Copy-Paste einfügen.
 
 ## Wie der Score funktioniert
 

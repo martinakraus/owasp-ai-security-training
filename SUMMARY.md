@@ -24,6 +24,6 @@
 * [🔍 Vertiefung: Varianten, Abwehr & Diskussion](vertiefung-varianten-abwehr-and-diskussion.md)
 * [✈️ Trippy Planner: Einführung](trippy-planner-einfuhrung.md)
 * [🥇 Level 1 — Der Angriff](level-1-der-angriff-1.md)
-* [🔍 Vertiefung: Varianten, Abwehr & Diskussion](vertiefung-varianten-abwehr-and-diskussion-1.md)
 * [🥈 Level 2](level-2-2.md)
 * [🥉 Level 3](level-3-2.md)
+* [🔍 Vertiefung: Varianten, Abwehr & Diskussion](vertiefung-varianten-abwehr-and-diskussion-1.md)

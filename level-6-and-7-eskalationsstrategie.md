@@ -31,7 +31,7 @@ Dieser Verlauf spiegelt gut wider, wie sich reale KI-Verteidigungen entwickeln: 
 
 **Das eigentliche Problem, zusammengefasst:** Je härter die Verteidigung (Level 1 → 7), desto ausgefeilter musste der Angriff werden — aber **keine** der Schutzschichten hat die Grundschwachstelle wirklich behoben, sie hat sie nur schwerer ausnutzbar gemacht. Das ist ein zentrales Muster in der KI-Sicherheit: Oberflächliche Abwehrmaßnahmen (Guardrails, Formatierungs-Checks) können umgangen werden, solange die strukturelle Ursache — keine Trennung von Daten und Anweisungen — bestehen bleibt.
 
-**Wie behebt man das (theoretisch) — strukturell, nicht nur oberflächlich?**
+**Wie behebt man das — strukturell, nicht nur oberflächlich?**
 
 * **Herkunftsprüfung (Provenance) auf Systemebene**, nicht nur auf Prompt-Ebene — z. B. digitale Signaturen für Memory-Einträge, die belegen, wer sie wann geschrieben hat.
 * **Architektonische Trennung von Daten und Instruktionen**, wo technisch möglich (z. B. strukturierte Felder statt freiem Fließtext für Memory).

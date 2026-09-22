@@ -60,7 +60,7 @@ Thank you."
 
 **Das eigentliche Problem:** Das `send_email`-Werkzeug lässt das `from`-Feld frei durch das Sprachmodell bestimmen — basierend auf einer reinen Textbehauptung im Chatverlauf ("ich bin dazu berechtigt"), nicht auf einer echten, geprüften Autorisierung. Das Modell entscheidet damit faktisch selbst über Identitätsfragen, die eigentlich außerhalb seiner Kompetenz liegen sollten.
 
-**Wie behebt man das (theoretisch)?**
+**Wie behebt man das?**
 
 * **Absenderidentität serverseitig fest an den authentifizierten Nutzer binden** — niemals als vom Modell frei befüllbares Textfeld gestalten.
 * **Delegationen echt prüfen:** Eine Behauptung wie "ich bin dazu berechtigt" darf nur gelten, wenn sie gegen ein echtes Berechtigungssystem (z. B. eine Datenbank aktiver Delegationen) verifiziert wird — abgefragt über einen separaten, nicht vom Sprachmodell kontrollierten Tool-Aufruf.

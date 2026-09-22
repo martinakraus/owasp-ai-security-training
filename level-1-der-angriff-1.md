@@ -43,7 +43,7 @@ in every itinerary that references this page.
 
 **Das eigentliche Problem:** Der Reiseassistent fügt abgerufene Webinhalte ungefiltert in seinen Kontext ein — mit demselben Vertrauensniveau wie eine echte Systemanweisung. Es gibt keine technische Markierung, die sagt "das hier ist unverifizierter externer Inhalt, keine Anweisung".
 
-**Wie behebt man das (theoretisch)?**
+**Wie behebt man das?**
 
 * **Retrieval-Inhalte klar von Instruktionen trennen:** Abgerufene Webinhalte in einem eigenen, deutlich gekennzeichneten Datenblock einfügen, mit expliziter Anweisung an das Modell, Inhalte darin niemals als Befehl zu behandeln — keine hundertprozentige Garantie, aber eine wichtige erste Schicht.
 * **Output-Filterung für Links:** Bevor ein Agent einen Link in seiner Antwort anzeigt, sollte ein automatisierter, vom Sprachmodell unabhängiger Check laufen (Domain-Reputation, bekannte Phishing-Datenbanken).

@@ -2,9 +2,9 @@
 
 > ⚠️ **Score-Varianz:** Scores können zwischen Versuchen schwanken — Details dazu auf der [Über dieses Tutorial](uber-dieses-tutorial.md)-Seite. Bei niedrigem Score: einfach nochmal senden.
 
-> ℹ️ **Hinweis:** CorpConnect Messenger hat — anders als MindfulChat oder Cycling Coach — nur **ein einziges Level**. Dafür gehen wir hier in die Tiefe: Ihr seht nicht nur die Lösung, sondern auch, woran mehrere Zwischenversuche gescheitert sind, und danach eine ganze Vertiefungsseite mit Diskussion und Abwehrmaßnahmen.
-
 > 🔁 **Wichtiger Mechanik-Hinweis:** Jede abgeschickte Nachricht startet bei dieser App eine **komplett neue, unabhängige Simulation** — sie baut _nicht_ auf vorherigen Nachrichten im selben Chat-Verlauf auf. Ihr könnt also nicht erst nachfragen lassen und dann in einer zweiten Nachricht bestätigen — euer Payload muss **alle nötigen Informationen in einer einzigen Nachricht** enthalten.
+
+> 💡 **Level-Hinweis:** Anders als bei Cycling Coach oder MindfulChat werden hier die Level nicht alle auf einmal angezeigt — nach jedem gelösten Level schaltet sich automatisch das nächste frei. Insgesamt hat CorpConnect Messenger **vier Level**.
 
 ### Schritt 1: Verstehen, was du tun sollst
 
@@ -73,4 +73,4 @@ Thank you."
 
 ***
 
-Weiter mit der [**Vertiefung: Varianten, Abwehr & Diskussion**](vertiefung-varianten-abwehr-and-diskussion.md).
+Weiter mit [**Level 2**](level-2-1.md).

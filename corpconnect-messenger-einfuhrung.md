@@ -16,6 +16,8 @@ Das ordnet sich bei **LLM03 — Excessive Agency** aus unserer Bedrohungsübersi
 
 > 💡 **Der Unterschied zu MindfulChat:** Dort haben wir dem Modell eine falsche _Information_ untergeschoben (ein gefälschter Memory-Eintrag). Hier überzeugen wir das Modell von einer falschen _Berechtigung_ — zwei unterschiedliche Hebel, dieselbe Grundschwachstelle: Das Modell kann nicht zuverlässig prüfen, ob eine Behauptung in seinem Kontext wahr ist.
 
+> 🎮 **Diese App hat vier Level** — anders als bei Cycling Coach oder MindfulChat werden sie nicht alle auf einmal angezeigt, sondern schalten sich nacheinander frei.
+
 ***
 
 Los geht's: [**CorpConnect Messenger — Level 1**](level-1-der-angriff.md)

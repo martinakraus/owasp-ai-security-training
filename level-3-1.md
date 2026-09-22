@@ -1,4 +1,4 @@
-# Level 3
+# 🥉 Level 3
 
 > ⚠️ **Score-Varianz:** Scores können zwischen Versuchen schwanken — Details dazu auf der [Über dieses Tutorial](uber-dieses-tutorial.md)-Seite.
 

@@ -1,4 +1,4 @@
-# Level 4 — Eskalationsstrategie
+# 🏅 Level 4 — Eskalationsstrategie
 
 > ⚠️ **Transparenz-Hinweis:** Level 1–3 haben wir live verifiziert (jeweils 100/100). **Level 4 (Schwierigkeit "EXPERT") haben wir in mehreren Versuchen nicht geknackt** — hier bekommt ihr ehrlich einen Techniken-Baukasten statt einer erfundenen Musterlösung.
 
